@@ -1,0 +1,13 @@
+name: AlienWorkFlow
+
+on: 
+ push:
+   branches: [ main ]
+
+jobs:
+  ThirdJob:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Practice
+       run: echo "YOOOOOO"
